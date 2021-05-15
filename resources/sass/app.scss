@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #42A5F5;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.sub-heading {
+    font-weight: 400;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #BDBDBD;
+    border-radius: 0;
+}
+
+input[type="text"]:focus {
+    outline: none !important;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+input[type="number"]:focus {
+    outline: none !important;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+input[type="email"]:focus {
+    outline: none !important;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+#message {
+    border-radius: 0;
+}
+
+#message:focus {
+    outline: none !important;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
